@@ -1,0 +1,187 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    /* Hero section styles */
+}
+
+.cta-button {
+    /* Button styles */
+}
+
+.booking {
+    /* Booking section styles */
+}
+
+.about-us {
+    /* About Us section styles */
+}
+
+/* Add styles for other sections accordingly */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+/* styles.css */
+
+
+.signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .signup-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .signup-container input[type="text"],
+  .signup-container input[type="email"],
+  .signup-container input[type="tel"],
+  .signup-container input[type="password"],
+  .signup-container input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+
+  .signup-container .error {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+  }
+  
+
+  .signup-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  
+
+  .signup-container p a {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  .signup-container p a:hover {
+    text-decoration: underline;
+  }
+  
+
+.signin-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .signin-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .signin-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .signin-container input[type="text"],
+  .signin-container input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+
+  .signin-container .error {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+  }
+
+  .signin-container button {
+    background-color: #007bff; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  /* Center the Sign In button */
+  .signin-container button {
+    margin: 10px 0;
+  }
+  
+
+  .signin-container p a {
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .signin-container p a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,24 @@
+.MuiBox-root.css-16ybtzv {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.App-footer {
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0; 
+    text-align: center;
+    color: white; 
+  }
+  
+  .App-footer a {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  .App-footer p {
+    margin: 0; 
+  }
+  

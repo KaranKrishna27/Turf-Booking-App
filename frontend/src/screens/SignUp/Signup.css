@@ -1,0 +1,35 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 90vh; 
+  }
+  
+  .signup-container form {
+    width: 300px; 
+  }
+  .signup-container label {
+    display: block; 
+    margin-bottom: 5px; 
+  }
+  
+  .signup-container input {
+    width: 100%; 
+  }
+  
+  .signup-container .error {
+    color: red; 
+  }
+  
+  .signup-container .password-toggle {
+    cursor: pointer;
+    margin-left: 231px;
+    margin-top: -10%;
+  }
+  
+  .signup-container button[type="submit"] {
+    margin-left: 30%; 
+    margin-top: 10px;
+    margin-bottom: 5%;
+  }

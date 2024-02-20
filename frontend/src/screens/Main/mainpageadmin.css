@@ -1,0 +1,106 @@
+body {
+  margin: 0; 
+  padding: 0; 
+  background: linear-gradient(to bottom right, #ff6b6b, #556270); 
+}
+.MuiTypography-root.add-turf-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.add-turf-container {
+  padding: 20px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  width: 80%;
+  margin-left: 10%;
+}
+.MuiContainer-root.MuiContainer-maxWidthMd {
+  margin-bottom: 60px;
+}
+
+.turf-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.add-turf-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .add-turf-title {
+    margin-bottom: 20px;
+  }
+  
+  .add-turf-inputs {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .add-turf-inputs input {
+    flex: 1;
+  }
+  
+  .add-turf-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-turf-btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .turf-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .turf-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .turf-card-content {
+    padding: 16px;
+  }
+  
+  .turf-card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .turf-card-description {
+    color: #666;
+  }
+  
+  .turf-card-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .turf-card-btn:hover {
+    background-color: #c82333;
+  }

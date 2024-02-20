@@ -1,0 +1,79 @@
+body {
+  margin: 0; 
+  padding: 0; 
+  background: linear-gradient(to bottom right, #ff6b6b, #556270);
+}
+
+.App {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+   }
+   
+   button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+   }
+   
+   button:hover {
+    background-color: #042d59;
+   }
+
+.card-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-align: center; 
+  }
+  
+  .card-description {
+    color: #666;
+  text-align: center; 
+  }
+  
+  .book-now-btn {
+    width: 100%; 
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book-now-btn:hover {
+    background-color: #388e3c;
+  }
+  
+
+
+
+
+  

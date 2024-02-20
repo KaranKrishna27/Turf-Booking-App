@@ -1,0 +1,53 @@
+
+
+.LandingPage {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .LandingPage-header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .LandingPage h1 {
+    color: #333;
+  }
+  
+  .LandingPage p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .button2{
+    background-color: #0056b3;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .button2:hover {
+   background-color: aqua;
+  }
+  .button1:hover {
+    background-color: aqua;
+  }
+  .button1{
+    
+    background-color: #00b339;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }

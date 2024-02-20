@@ -1,0 +1,50 @@
+.signin-container {
+  max-width: 400px; 
+  margin: 40px auto 5%; 
+  text-align: center;
+}
+
+.signin-container form {
+  margin-top: 20px; 
+}
+
+.signin-container p {
+  margin-top: 20px; 
+}
+
+.signin-container a {
+  display: block; 
+  margin-top: 20px;
+}
+
+.signin-container form {
+  margin-top: 20px;
+}
+
+.signin-container p {
+  margin-top: 20px;
+}
+
+.signin-container a {
+  display: block;
+  margin-top: 20px;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  padding-right: 40px; 
+}
+
+.password-field .toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 5px; 
+  background-color: transparent; 
+  border: none;
+}
